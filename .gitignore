@@ -1,1 +1,25 @@
-*.swp
+# compilation results #
+#######################
+*.o
+*.a
+*.bin
+*.elf
+*.hex
+*.lst
+*.map
+deps
+
+# Makefile target files #
+#########################
+dirs
+program
+
+# Eclipse & editor files #
+#########################
+.project
+.cproject
+*~
+
+# Log files #
+#############
+openocd.log
